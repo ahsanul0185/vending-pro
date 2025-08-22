@@ -7,11 +7,11 @@ import { usePageData } from "../../../modules/PageDataContext";
 import FormTitleText from "../form-components/FormTitleText";
 import { Link } from "react-router-dom";
 
-const FormSoloTravel = () => {
-  const { soloTravelPageData, setSoloTravelPageData } = usePageData();
+const FormWorkWithUs = () => {
+  const { workWithUsPageData, setWorkWithUsPageData } = usePageData();
 
   const onHeaderChange = (e, type) => {
-    setSoloTravelPageData((prev) => ({
+    setWorkWithUsPageData((prev) => ({
       ...prev,
       sectionHeader: { ...prev.sectionHeader, [type]: e.target.value },
     }));
@@ -19,7 +19,7 @@ const FormSoloTravel = () => {
 
 const onTitleChange = (e, type, fieldKey) => {
   const value = e.target.value;
-  setSoloTravelPageData((prev) => ({
+  setWorkWithUsPageData((prev) => ({
     ...prev,
     [fieldKey]: {
       ...prev[fieldKey],
@@ -34,36 +34,33 @@ const onTitleChange = (e, type, fieldKey) => {
       <div style={{ backgroundColor: "#eee" }}>
         <FormSectionHeader
           onHeaderChange={onHeaderChange}
-          image={soloTravelPageData.sectionHeader.image}
-          title={soloTravelPageData.sectionHeader.title}
-          subtitle={soloTravelPageData.sectionHeader.subtitle}
-          description={soloTravelPageData.sectionHeader.description}
+          image={workWithUsPageData.sectionHeader.image}
+          title={workWithUsPageData.sectionHeader.title}
+          subtitle={workWithUsPageData.sectionHeader.subtitle}
+          description={workWithUsPageData.sectionHeader.description}
         />
 
         <FormTitleText
         fieldKey="titleText1"
           onTitleChange={onTitleChange}
-          title={soloTravelPageData.titleText1.title}
-          text={soloTravelPageData.titleText1.text}
+          title={workWithUsPageData.titleText1.title}
+          text={workWithUsPageData.titleText1.text}
         />
         <FormTitleText
         fieldKey="titleText2"
           onTitleChange={onTitleChange}
-          title={soloTravelPageData.titleText2.title}
-          text={soloTravelPageData.titleText2.text}
+          title={workWithUsPageData.titleText2.title}
+          text={workWithUsPageData.titleText2.text}
         />
         <FormTitleText
         fieldKey="titleText3"
           onTitleChange={onTitleChange}
-          title={soloTravelPageData.titleText3.title}
-          text={soloTravelPageData.titleText3.text}
+          title={workWithUsPageData.titleText3.title}
+          text={workWithUsPageData.titleText3.text}
         />
-
-        <Link className="btn-primary"  to="/dashboard?page=home">Edit this section</Link>
-        <ReasonsSection />
       </div>
     </div>
   );
 };
 
-export default FormSoloTravel;
+export default FormWorkWithUs;

@@ -4,13 +4,13 @@ import ProcessText from "../../../functions/LanguageSorter";
 import { usePageData } from "../../../modules/PageDataContext";
 import { useAutoResizeTextarea } from "../../../functions/useAutoResizeTextarea";
 
-const FormSmallGroupsPage = () => {
-  const { smallGroupPageData, setSmallGroupPageData } = usePageData();
+const FormPartnerShipPage = () => {
+  const { partnershipPageData, setPartnershipPageData } = usePageData();
   const { ref, onInput } = useAutoResizeTextarea();
 
 
   const onHeaderChange = (e, type) => {
-    setSmallGroupPageData((prev) => ({
+    setPartnershipPageData((prev) => ({
       ...prev,
       sectionHeader: { ...prev.sectionHeader, [type]: e.target.value },
     }));
@@ -20,39 +20,39 @@ const FormSmallGroupsPage = () => {
     <div style={{ backgroundColor: "#eee" }}>
       <FormSectionHeader
         onHeaderChange={onHeaderChange}
-        image={smallGroupPageData.sectionHeader.image}
-        title={smallGroupPageData.sectionHeader.title}
+        image={partnershipPageData.sectionHeader.image}
+        title={partnershipPageData.sectionHeader.title}
       >
         <div className="sg-container">
           <div>
-            <img src={smallGroupPageData.leftImage} />
+            <img src={partnershipPageData.leftImage} />
             <input
               type="text"
               onChange={(e) =>
-                setSmallGroupPageData((prev) => ({
+                setPartnershipPageData((prev) => ({
                   ...prev,
                   leftImage: e.target.value,
                 }))
               }
-              value={smallGroupPageData.leftImage}
+              value={partnershipPageData.leftImage}
             />
           </div>
           <div>
             <input
               type="text"
               onChange={(e) =>
-                setSmallGroupPageData((prev) => ({
+                setPartnershipPageData((prev) => ({
                   ...prev,
                   titleText: e.target.value,
                 }))
               }
               className="input-field d-s-header-h2"
-              value={smallGroupPageData.titleText}
+              value={partnershipPageData.titleText}
             />
             <div>
               <textarea
                 onChange={(e) =>
-                  setSmallGroupPageData((prev) => ({
+                  setPartnershipPageData((prev) => ({
                     ...prev,
                     para1: e.target.value,
                   }))
@@ -61,13 +61,13 @@ const FormSmallGroupsPage = () => {
                                 ref={ref}
                 onInput={onInput}
                 type="text"
-                value={smallGroupPageData.para1}
+                value={partnershipPageData.para1}
                 className="d-s-header-p"
               />
               <br />
               <textarea
                 onChange={(e) =>
-                  setSmallGroupPageData((prev) => ({
+                  setPartnershipPageData((prev) => ({
                     ...prev,
                     para2: e.target.value,
                   }))
@@ -75,13 +75,13 @@ const FormSmallGroupsPage = () => {
                                 ref={ref}
                 onInput={onInput}
                 type="text"
-                value={smallGroupPageData.para2}
+                value={partnershipPageData.para2}
                 className="d-s-header-p"
               />
               <br />
               <textarea
                 onChange={(e) =>
-                  setSmallGroupPageData((prev) => ({
+                  setPartnershipPageData((prev) => ({
                     ...prev,
                     para3: e.target.value,
                   }))
@@ -89,7 +89,7 @@ const FormSmallGroupsPage = () => {
                                 ref={ref}
                 onInput={onInput}
                 type="text"
-                value={smallGroupPageData.para3}
+                value={partnershipPageData.para3}
                 className="d-s-header-p"
               />
             </div>
@@ -100,4 +100,4 @@ const FormSmallGroupsPage = () => {
   );
 };
 
-export default FormSmallGroupsPage;
+export default FormPartnerShipPage;

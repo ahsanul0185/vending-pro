@@ -28,6 +28,7 @@
 
 .footer-column img {
   height: 90px;
+  width: auto;
 }
 
 /* Estilo de los enlaces dentro de cada columna */

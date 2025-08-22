@@ -1,17 +1,15 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import {
-  exploreToursPageMockData,
   footerMockData,
   headerMockData,
   homePageMockData,
   mobileAppPageMockData,
-  privateTourPageMockData,
+  partnershipPageMockData,
   reviewsPageMockData,
-  smallGroupPageMockData,
   socialContentPageMockData,
-  soloTravelPageMockData,
   videoGalleryPageMockData,
   whyGSTPageMockData,
+  workWithUsPageMockData,
 } from "../functions/pageMockData";
 import { toast } from "sonner";
 import { savePageData } from "../firebase/actions";
@@ -45,13 +43,11 @@ export const PageDataProvider = ({ children }) => {
   const [headerData, setHeaderData] = useState(null);
   const [footerData, setFooterData] = useState(null);
   const [homePageData, setHomePageData] = useState(null);
-  const [smallGroupPageData, setSmallGroupPageData] = useState(null);
-  const [soloTravelPageData, setSoloTravelPageData] = useState(null);
+  const [partnershipPageData, setPartnershipPageData] = useState(null);
+  const [workWithUsPageData, setWorkWithUsPageData] = useState(null);
   const [mobileAppPageData, setMobileAppPageData] = useState(null);
   const [videoGalleryPageData, setVideoGalleryPageData] = useState(null);
-  const [privateTourPageData, setPrivateTourPageData] = useState(null);
   const [socialContentPageData, setSocialContentPageData] = useState(null);
-  const [exploreTourPageData, setExploreTourPageData] = useState(null);
   const [whyGSTPageData, setWhyGSTPageData] = useState(null);
   const [reviewsPageData, setReviewsPageData] = useState(null);
 
@@ -68,15 +64,13 @@ export const PageDataProvider = ({ children }) => {
         setHeaderData(data?.header || headerMockData);
         setFooterData(data?.footer || footerMockData);
         setHomePageData(data?.home || homePageMockData);
-        setSmallGroupPageData(data?.smallGroup || smallGroupPageMockData);
-        setSoloTravelPageData(data?.soloTravel || soloTravelPageMockData);
+        setPartnershipPageData(data?.partership || partnershipPageMockData);
+        setWorkWithUsPageData(data?.workWithUs || workWithUsPageMockData);
         setMobileAppPageData(data?.mobileApp || mobileAppPageMockData);
         setVideoGalleryPageData(data?.videoGallery || videoGalleryPageMockData);
-        setPrivateTourPageData(data?.privateTour || privateTourPageMockData);
         setSocialContentPageData(
           data?.socialContent || socialContentPageMockData
         );
-        setExploreTourPageData(data?.exploreTour || exploreToursPageMockData);
         setWhyGSTPageData(data?.whyGST || whyGSTPageMockData);
         setReviewsPageData(data?.reviews || reviewsPageMockData);
 
@@ -106,13 +100,11 @@ const newPageData = {
   header: isEmpty(headerData) || headerMockData,
   footer: isEmpty(footerData) || footerMockData,
   home: isEmpty(homePageData) || homePageMockData,
-  smallGroup: isEmpty(smallGroupPageData) || smallGroupPageMockData,
-  soloTravel: isEmpty(soloTravelPageData) || soloTravelPageMockData,
+  partership: isEmpty(partnershipPageData) || partnershipPageData,
+  workWithUs: isEmpty(workWithUsPageData) || workWithUsPageData,
   mobileApp: isEmpty(mobileAppPageData) || mobileAppPageMockData,
   videoGallery: isEmpty(videoGalleryPageData) || videoGalleryPageMockData,
-  privateTour: isEmpty(privateTourPageData) || privateTourPageMockData,
   socialContent: isEmpty(socialContentPageData) || socialContentPageMockData,
-  exploreTour: isEmpty(exploreTourPageData) || exploreToursPageMockData,
   whyGST: isEmpty(whyGSTPageData) || whyGSTPageMockData,
   reviews: isEmpty(reviewsPageData) || reviewsPageMockData,
 };
@@ -135,25 +127,21 @@ const newPageData = {
     headerData,
     footerData,
     homePageData,
-    smallGroupPageData,
-    soloTravelPageData,
+    workWithUsPageData,
+    partnershipPageData,
     mobileAppPageData,
     videoGalleryPageData,
-    privateTourPageData,
     socialContentPageData,
-    exploreTourPageData,
     whyGSTPageData,
     reviewsPageData,
     setHeaderData,
     setFooterData,
     setHomePageData,
-    setSmallGroupPageData,
-    setSoloTravelPageData,
+    setPartnershipPageData,
+    setWorkWithUsPageData,
     setMobileAppPageData,
     setVideoGalleryPageData,
-    setPrivateTourPageData,
     setSocialContentPageData,
-    setExploreTourPageData,
     setWhyGSTPageData,
     setReviewsPageData,
     socialPosts,

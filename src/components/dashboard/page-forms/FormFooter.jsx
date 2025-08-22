@@ -25,30 +25,30 @@ const FormFooter = () => {
           <Link className="footer-links" to={"/"}>
             {ProcessText("Home***Inicio")}
           </Link>
-          <Link className="footer-links" to={"/explore-tours"}>
-            Tours
+          <Link className="footer-links" to={"/products"}>
+            Machines
           </Link>
-          <Link className="footer-links" to={"/small-groups"}>
-            {ProcessText("small groups***Grupos pequeños")}
+          <Link className="footer-links" to={"/partnership"}>
+            {ProcessText("Partnership***Colaboración")}
           </Link>
-          <Link className="footer-links" to={"/solo-travel"}>
-            {ProcessText("solo travel***Viajes en solitario")}
+          <Link className="footer-links" to={"/work-with-us"}>
+            {ProcessText("Work with us***Trabaja con nosotros")}
           </Link>
         </div>
 
         {/* Columna 3 */}
         <div className="footer-column">
-          <Link className="footer-links" to={"/tech-on-tours"}>
-            {ProcessText("tech on tours***Tecnología en los tours")}
-          </Link>
+<Link className="footer-links" to={"/technology"}>
+  {ProcessText("Technology***Tecnología")}
+</Link>
           <Link className="footer-links" to={"/videos"}>
-            {ProcessText("video gallery***Galería de video")}
+            {ProcessText("Video gallery***Galería de video")}
           </Link>
           <Link className="footer-links" to={"/reviews"}>
             {ProcessText("Reviews and testimonials***Opiniones y testimonios")}
           </Link>
-          <Link className="footer-links" to={"/why-gst"}>
-            {ProcessText("about us***sobre nosotros")}
+          <Link className="footer-links" to={"/why-spot-vending"}>
+            {ProcessText("About us***sobre nosotros")}
           </Link>
         </div>
 

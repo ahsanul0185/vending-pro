@@ -65,7 +65,7 @@ function ReasonsSection() {
   const items = homePageData.reasonList;
   return (
     <div className="r-reasons-container">
-      <h2>{processText("Why travel with Good Shepherd Tours?***¿Por qué viajar con Good Shepherd Tours?")}</h2>
+      <h2>{processText("Why Vending Pro?***¿Por qué vender Pro?")}</h2>
       <div className="r-section-container">
         {items.map((item, index) => (
           <div className="r-section-item" key={index}>
@@ -74,7 +74,7 @@ function ReasonsSection() {
             <div>
               <h3>{processText(item.title)}</h3>
               <p>{processText(item.text)}</p>
-              <Link to={"/why-gst"}>{processText("Read More***Leer Más")}</Link>
+              <Link to={"/why-spot-vending"}>{processText("Read More***Leer Más")}</Link>
             </div>
           </div>
         ))}

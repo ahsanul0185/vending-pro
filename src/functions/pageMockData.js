@@ -1,9 +1,9 @@
 export const headerMockData = {
-  topbarText: "My Good Shepherd Tours",
-  logo: "/logo-w.png",
+  topbarText: "Vending Pro",
+  logo: "/logo1.png",
   phone: "123.45.535",
   callAdvisorText:
-    "Or call our travel advisor *** O llama a nuestro agente de viajes",
+    "Or call our advisor *** O llama a nuestro agente de viajes",
 };
 
 export const footerMockData = {
@@ -46,26 +46,26 @@ export const homePageMockData = {
     {
       background:
         "https://delivery.gfobcontent.com/api/public/content/a35ace82c7e74485a5bc5d28f628fd12?v=4ea8ee99&t=w500",
-      url: "/why-gst",
-      title: "about us***Sobre nosotros",
+      url: "/why-spot-vending",
+      title: "About us***Sobre nosotros",
     },
     {
       background:
         "https://delivery.gfobcontent.com/api/public/content/f825f15188244274b96306884e595d2c?v=6a75a77c&t=w500",
-      url: "/private-touring",
-      title: "Private Touring***Tours Privados",
+      url: "/products",
+      title: "Machines",
     },
     {
       background:
         "https://delivery.gfobcontent.com/api/public/content/d214554c9e3348a58c0acbb3e608384e?v=0c8c38be&t=w500",
-      url: "/small-groups",
-      title: "Small Group Departures***Salidas de grupos pequeños",
+      url: "/work-with-us",
+      title: "Work with us***Salidas de grupos pequeños",
     },
     {
       background:
         "https://delivery.gfobcontent.com/api/public/content/4e44308aa9fa4d5e85e49baa84dc304d?v=6eec1a01&t=w500",
-      url: "/solo-travel",
-      title: "Solo Travel***Viaje en solitario",
+      url: "/reviews",
+      title: "Reviews***Viaje en solitario",
     },
     {
       background:
@@ -76,8 +76,8 @@ export const homePageMockData = {
     {
       background:
         "https://delivery.gfobcontent.com/api/public/content/e4c5c3f89433468c9f67c3fffb3a1b6b?v=2a933371&t=w500",
-      url: "/tech-on-tours",
-      title: "Religious Tours***Tours religiosos",
+      url: "/technology",
+      title: "Technology***Technologia",
     },
   ],
   reasonList: [
@@ -121,26 +121,21 @@ export const homePageMockData = {
   ],
 };
 
-export const smallGroupPageMockData = {
+export const partnershipPageMockData = {
   sectionHeader: {
+    title:
+      "Partnership",
+    subtitle: "What, When, Where, and Wow!***¡Qué, Cuándo, Dónde y Wow!",
+    description:
+      "While Good shepherd tours is devoted to showing you the wonders of the world, our complimentary Good shepherd tours app was designed to put a world of pre-trip and on-trip information at your fingertips.\n\n Prior to departure and throughout your vacation, you can log in to check flight, hotel and transfer information, review your itinerary, and customize your trip with a host of entertainment, sightseeing, dining, and shopping suggestions. Local bistros, bars, bookstores, and bakeries are all at your fingertips. Best of all, you'll get more out of your free time to wander with confidence—without Wi-Fi, thanks to a built-in GPS navigation tool that saves time and data too!\n\n Created to help you make the most of precious travel time, Good shepherd tours is a digital travel guide and journal all in one, allowing you to take trip notes, organize photos, and share your Good shepher tours vacation experiences with friends and family on social media.***Mientras que Good shepherd tours está dedicado a mostrarle las maravillas del mundo, nuestra aplicación Good shepherd tours gratuita fue diseñada para poner un mundo de información previa al viaje y en el viaje a su alcance.\n\n Antes de la salida y durante sus vacaciones, puede iniciar sesión para verificar la información de vuelo, hotel y traslado, revisar su itinerario y personalice su viaje con una gran cantidad de sugerencias de entretenimiento, turismo, restaurantes y compras. Bistros locales, bares, librerías y panaderías están a su alcance. ¡Lo mejor de todo es que obtendrá más de su tiempo libre para pasear con confianza—sin Wi-Fi, gracias a una herramienta de navegación GPS incorporada que también ahorra tiempo y datos!\n\n Creado para ayudarlo a aprovechar al máximo el valioso tiempo de viaje, Good shepherd tours es una guía de viaje digital y un diario, todo en uno, que le permite tomar notas de viaje, organizar fotos y compartir sus experiencias de vacaciones de Good shepher tours con amigos y familiares en las redes sociales.",
     image:
-      "https://delivery.gfobcontent.com/api/public/content/0be5e453a3d44dfabae1d039296a599e?v=a7aac9ea&t=w2999",
-    title: "Small Group Departures",
-  },
-  leftImage:
-    "https://delivery.gfobcontent.com/api/public/content/ffe8a990135048f4878a17089def7f42?v=067b4d14&t=w1440",
-  titleText: "Think Small in a Big Way***Piensa de forma pequeña en Grande",
-  para1:
-    "Good shepherd tours makes it easy to tour with fewer fellow travelers on small group departures. Enjoy all the features and perks of a good sheperd tour in a smaller group. Make tracks to Machu Picchu, find your game on an African safari, or revel in Roman ruins with select itineraries / destinations averaging just 24 guests or less**.***Los buenos tours de pastores facilitan el recorrido con menos compañeros de viaje en salidas en grupos pequeños. Disfrute de todas las características y ventajas de una buena gira sheperd en un grupo más pequeño. Haga pistas a Machu Picchu, encuentre su juego en un safari africano o disfrute de las ruinas romanas con itinerarios selectos/destinos con un promedio de solo 24 invitados o menos**.",
-  para2:
-    "Simply select a departure with “Small Group Departure” indicated within the Dates and Prices listing on select Europe, Africa, Asia, South America, and South Pacific tours. Then, get ready to enjoy the big advantages of a smaller group size.***Simplemente seleccione una salida con “Small Group Departure” indicada en la lista Fechas y precios en recorridos selectos por Europa, África, Asia, América del Sur y el Pacífico Sur. Luego, prepárese para disfrutar de las grandes ventajas de un tamaño de grupo más pequeño.",
-  para3:
-    "**Please note that small group departure dates are offered on land portions of your vacation and cannot be accommodated on cruise or rail portions of your itinerary.***Tenga en cuenta que las fechas de salida de grupos pequeños se ofrecen en porciones de tierra de sus vacaciones y no se pueden acomodar en porciones de crucero o ferrocarril de su itinerario.",
+      "https://media.istockphoto.com/id/1916729901/photo/meeting-success-two-business-persons-shaking-hands-standing-outside.jpg?s=612x612&w=0&k=20&c=Zpa1CaJlGI4mYdzqJGjCIEWFRCkqo3DmHxLopdki-SE=",
+  }
 };
 
-export const soloTravelPageMockData = {
+export const workWithUsPageMockData = {
   sectionHeader: {
-    title: "Solo Travel***Viajes en solitario",
+    title: "Work with us",
     subtitle:
       "Explore the World. Find Yourself.***Explora el mundo, Encuentrate a ti mism@ ",
     description:
@@ -164,7 +159,7 @@ export const soloTravelPageMockData = {
 export const mobileAppPageMockData = {
   sectionHeader: {
     title:
-      "Good shepherd Tours Mobile App***Aplicacion Móvil de Good Shepherd Tours",
+      "Technology",
     subtitle: "What, When, Where, and Wow!***¡Qué, Cuándo, Dónde y Wow!",
     description:
       "While Good shepherd tours is devoted to showing you the wonders of the world, our complimentary Good shepherd tours app was designed to put a world of pre-trip and on-trip information at your fingertips.\n\n Prior to departure and throughout your vacation, you can log in to check flight, hotel and transfer information, review your itinerary, and customize your trip with a host of entertainment, sightseeing, dining, and shopping suggestions. Local bistros, bars, bookstores, and bakeries are all at your fingertips. Best of all, you'll get more out of your free time to wander with confidence—without Wi-Fi, thanks to a built-in GPS navigation tool that saves time and data too!\n\n Created to help you make the most of precious travel time, Good shepherd tours is a digital travel guide and journal all in one, allowing you to take trip notes, organize photos, and share your Good shepher tours vacation experiences with friends and family on social media.***Mientras que Good shepherd tours está dedicado a mostrarle las maravillas del mundo, nuestra aplicación Good shepherd tours gratuita fue diseñada para poner un mundo de información previa al viaje y en el viaje a su alcance.\n\n Antes de la salida y durante sus vacaciones, puede iniciar sesión para verificar la información de vuelo, hotel y traslado, revisar su itinerario y personalice su viaje con una gran cantidad de sugerencias de entretenimiento, turismo, restaurantes y compras. Bistros locales, bares, librerías y panaderías están a su alcance. ¡Lo mejor de todo es que obtendrá más de su tiempo libre para pasear con confianza—sin Wi-Fi, gracias a una herramienta de navegación GPS incorporada que también ahorra tiempo y datos!\n\n Creado para ayudarlo a aprovechar al máximo el valioso tiempo de viaje, Good shepherd tours es una guía de viaje digital y un diario, todo en uno, que le permite tomar notas de viaje, organizar fotos y compartir sus experiencias de vacaciones de Good shepher tours con amigos y familiares en las redes sociales.",
@@ -174,7 +169,7 @@ export const mobileAppPageMockData = {
 };
 export const videoGalleryPageMockData = {
   sectionHeader: {
-    title: 'Just Say "YES" to Travel***Solo di "SI" a viajar',
+    title: 'Just Say "YES" to Vending Pro***Solo di "SI" a viajar',
     subtitle: "The Countdown to Count Me In!***La Cuenta Atras Para Anotarte",
     description:
       "Are you tired of “wait and see” when it comes to planning the perfect trip and ready for Plan “see” and the opportunity to add awesome back to your calendar?!  JUST SAY YES!***¡Estás cansado de “esperar y ver” cuando se trata de planificar el viaje perfecto y listo para Plan “ver” y la oportunidad de añadir algo impresionante a su calendario?!  ¡SOLO DI QUE SÍ!",
@@ -182,51 +177,7 @@ export const videoGalleryPageMockData = {
       "https://delivery.gfobcontent.com/api/public/content/d5637bf8cbf64192a747a1229c05f7fd?v=34cf471c&t=w2999",
   },
 };
-export const privateTourPageMockData = {
-  sectionHeader: {
-    image:
-      "https://delivery.gfobcontent.com/api/public/content/af0a768ca8614742868f06cf7ecc64eb?v=fecdbd1a&t=w2999",
-    title: "Private Touring*** Tours Privados",
-  },
-  titleText: "Keep the World to Yourself***Quedate el Mundo Para Ti",
-  para1:
-    "Have you long dreamed of standing before the grand castles of England, strolling through the fragrant vineyards of France, or lingering in the ancient squares of Italy—with your own inner circle? With the introduction of good shepherd tours European Private Touring, you can take a trip of a lifetime exclusively in the company of the favorite people in your life.***¿Has soñado durante mucho tiempo con pararte ante los grandes castillos de Inglaterra, pasear por los fragantes viñedos de Francia o permanecer en las antiguas plazas de Italia con tu propio círculo íntimo? Con la introducción de los tours privados de Good shepherd tours, puedes hacer un viaje de tu vida exclusivamente en compañía de las personas favoritas en tu vida.",
-  para2:
-    "See More of the Globe. Without the Rest of the World.***Ver más del Globo. Sin el Resto del Mundo.",
-  para3:
-    "Designed for parties from two to two dozen.***Diseñado para Grupos de dos a dos docenas.",
-  para4:
-    "Good shepherd European Private Touring offers all of the benefits of a good shepherd tour published itinerary, yet allows you to handpick your traveling party. Grab your partner, gather the gang, or get the family together. Whether you organize a romantic getaway or an overdue reunion, you’ll enjoy a more exclusive European vacation with all of the features you’d expect from a Good shepherd tour.***Good shepherd tours ofrece todos los beneficios de un itinerario publicado por good shepherd tours, pero le permite elegir a mano su grupo de viaje. Agarra a tu pareja, reúne a la pandilla o reúne a la familia. Ya sea que organice una escapada romántica o una reunión atrasada, disfrutará de unas vacaciones europeas más exclusivas con todas las características que esperará de un tour de good shepherd tours.",
-  para5:
-    "With a Good shepherd Private Tour, your traveling party will travel with a dedicated Tour Director, private transportation and driver, and personal, professional Local Guides. Every Private Tour includes all of the visits and entrances as outlined in the original published itinerary. And going private gives you the advantage of a greater flexibility in pace and experience. Perhaps you’d like to spend a little more time at a particular landmark, see an additional sight, or even skip one altogether. Go ahead, it's your Good shepherd Private Tour!***Con un Tour Privado de Good Shepherd tours, su grupo de viaje viajará con un Director de Tour dedicado, transporte privado y conductor, y Guías Locales personales y profesionales. Cada Tour Privado incluye todas las visitas y entradas como se describe en el itinerario original publicado. Y ir en privado le da la ventaja de una mayor flexibilidad en el ritmo y la experiencia. Tal vez le gustaría pasar un poco más de tiempo en un punto de referencia en particular, ver una vista adicional, o incluso saltarse uno por completo. ¡Adelante, es tu tour privado de Good shepherd tours!",
-  rightImage:
-    "https://delivery.gfobcontent.com/api/public/content/127c8bbb25804a53898d0ecaa5f366b3?v=8f64a05b&t=w1440",
-  section2: {
-    leftImage:
-      "https://delivery.gfobcontent.com/api/public/content/340201ff2dc841c098827a9bf3e0696c?v=859ff4f8&t=w1440",
-    title:
-      "Turn Any European Tour into a Private Touring Experience.***Convierta Cualquier Tour Europeo en una Experiencia de Touring Privada.",
-    text1:
-      "Simply choose your tour from our Good shepherd Europe portfolio, then let us know that you’re interested in a Private Tour, along with the number in your party (from 1-24). An additional premium, based on the overall number of guests, is simply charged for each traveler in addition to the published tour price.***Simplemente elija su recorrido de nuestra cartera de good shepherd en Europa, luego háganos saber que está interesado en un Tour Privado, junto con el número en su grupo (de 1-24). Una prima adicional, basada en el número total de invitados, simplemente se cobra por cada viajero además del precio del tour publicado.",
-    exTitle: "Example pricing***Precios de ejemplo",
-    pricingList: [
-      {
-        name: "Ireland Private Tour Pricing***Precios de tours privados Irlandeses",
-        path: "",
-      },
-      {
-        name: "Italy Private Tour Pricing***Precios de tours privados Italianos",
-        path: "",
-      },
-      {
-        name: "Morocco Private Tour Pricing***Precios de tours privados Marroquíes",
-        path: "",
-      },
-    ],
-    bottomText:
-      "Please note that Private Touring itineraries are offered on land portions of your vacation and cannot be accommodated on cruise or rail portions of your itinerary.***Tenga en cuenta que los itinerarios de Touring Privado se ofrecen en porciones de tierra de sus vacaciones y no se pueden acomodar en porciones de crucero o ferrocarril de su itinerario.",
-  },
-};
+
 export const socialContentPageMockData = {
   sectionHeader: {
     title: "Trusted, Tried & True***De confianza, comprobado & verdadero",
@@ -251,7 +202,7 @@ wowText : "WOW IS WAITING***WOW ESTÁ A LA ESPERA"
 export const whyGSTPageMockData = {
   sectionHeader: {
     title:
-      "Why Travel with Good Shepherd Tours?***¿Por qué viajar con Good Shepherd Tours?",
+      "Why Vending Pro",
     subtitle:
       "Details Done. Your Job... Fun.***Los Detalles Resueltos, Tu trabajo... Divertirte ",
     description:

@@ -150,8 +150,7 @@ const categoryData = [
       <nav className="header">
         <div className="header-items">
           <Link to={"/"}>
-            {/* <img className="" src={headerData.logo} alt="Logo" /> */}
-            <h2 className="text-white text-2xl font-bold">Vending Pro</h2>
+            <img className="" src={headerData.logo} alt="Logo" />
           </Link>
           <DropdownButton
             id="1"

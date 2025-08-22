@@ -231,11 +231,7 @@ const FormLandingPage = () => {
       {/* Reason Section */}
       <section>
         <div className="r-reasons-container">
-          <h2>
-            {processText(
-              "Why travel with Good Shepherd Tours?***¿Por qué viajar con Good Shepherd Tours?"
-            )}
-          </h2>
+      <h2>{processText("Why Vending Pro?***¿Por qué vender Pro?")}</h2>
           <div className="r-section-container">
             {reasonItems.map((item, index) => (
               <div className="r-section-item e-r-section-item" key={index}>

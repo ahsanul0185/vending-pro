@@ -10,14 +10,12 @@ const sidebarPageTabs = [
   { id: "header", name: "Header" },
   { id: "footer", name: "Footer" },
   { id: "home", name: "Home" },
-  { id: "small-groups", name: "Small Groups" },
-  { id: "solo-travel", name: "Solo Travel" },
-  { id: "tech-on-tours", name: "Mobile App" },
+  { id: "partnership", name: "Partership" },
+  { id: "work-with-us", name: "Work with us" },
+  { id: "technology", name: "Technology" },
   { id: "video-gallery", name: "Video gallery" },
-  { id: "private-touring", name: "Private Tour" },
   { id: "social-content", name: "Social Content" },
-  { id: "explore-tours", name: "Explore Tours" },
-  { id: "why-gst", name: "Why GST" },
+  { id: "why-vending-pro", name: "Why Vending Pro" },
   { id: "reviews", name: "Reviews Page" },
 ];
 
