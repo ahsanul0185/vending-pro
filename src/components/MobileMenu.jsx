@@ -32,34 +32,46 @@ function MobileMenu() {
         : texto.substring(index + clave.length);
     };
   
-  const jsonData = [
-    {
-      category: {
-        id: 1,
-        category_name: processText("Learn about***Conocenos"),
-      },
-      options: [
-        ["/explore-tours", processText("Explore Tours***Explora Tours")],
-        ["/solo-travel", processText("Solo travel*** Viajes en solitario")],
-        ["/small-groups", processText("Small groups*** Grupos pequeños")],
-        ["/private-touring", processText("Private touring*** Tours privados")],
-      ],
-    }
-  ];
-  
+
+const jsonData = [
+  {
+    category: {
+      id: 1,
+      category_name: "Solutions***Soluciones",
+    },
+    options: [
+      ["/technology", "Technology***Tecnología"],
+      ["/partnership", "Partnership***Socios"],
+      ["/work-with-us", "Work With Us***Trabaja con nosotros"],
+    ],
+  },
+];
+
+
   const jsonDataAbout = [
     {
       category: {
         id: 1,
-        category_name: processText("Meet good shepherd Tours***Conoce a Good Shepherd Tours"),
+        category_name: processText(
+          "Meet Vending Pro***Conoce a Vending Pro"
+        ),
       },
       options: [
-        ["/why-gst", processText("why Good Shepherd Tours***Por qué Good Shepherd Tours")],
-        ["/tech-on-tours", processText("Tech on tours***Tecnologia en los tours")],
+        [
+          "/why-spot-vending",
+          processText("Why Vending Pro***Por qué Vending Pro"),
+        ],
+        [
+          "/technology",
+          processText("Technology***Tecnologia en los tours"),
+        ],
         ["/videos", processText("Video gallery***Galeria de video")],
-        ["/reviews", processText("Reviews and testimonials***Opiniones y testimonios")],
+        [
+          "/reviews",
+          processText("Reviews and testimonials***Opiniones y testimonios"),
+        ],
       ],
-    }
+    },
   ];
 
 const categoryData = [
@@ -121,7 +133,7 @@ const categoryData = [
           <HeaderButton />
           <div className="mobile-item">
             <NestedDropdown data={categoryData} dropdownName={ProcessText('Explore Machines***Explorar Machines')} resumeLink={true} onToggle={handleToggle}   />
-            <NestedDropdown data={jsonData} dropdownName={ProcessText('Travel Styles***Estilos de viaje')}  resumeLink={false} onToggle={handleToggle} />
+            <NestedDropdown data={jsonData} dropdownName={ProcessText('Solutions***Soluciones')}  resumeLink={false} onToggle={handleToggle} />
             <NestedDropdown data={jsonDataAbout} dropdownName={ProcessText('About Us***Sobre nosotros')}  resumeLink={false} onToggle={handleToggle} />
           
           </div>

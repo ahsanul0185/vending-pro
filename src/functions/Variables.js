@@ -1,5 +1,6 @@
 // export const Adress = "http://127.0.0.1:8000/";
 export const Adress = import.meta.env.VITE_BACKEND_API
+export const BACKEND_API = import.meta.env.VITE_BACKEND_API;
 
 export const countryList = [
   { name: "Afghanistan***Afganistán", code: "AF" },

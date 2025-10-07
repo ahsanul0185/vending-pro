@@ -121,7 +121,7 @@ const categoryData = [
   };
 
   const handleRedirect = () => {
-    window.location.href = import.meta.env.VITE_BACKEND_API;
+    window.location.href = "";
   };
 
   return (
